@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3fabc801297e658ebe6d654d1a6ca560",
+        "contentDigest": "ea8f310b6c2f0e152d8c03c609a8c80e",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -302,6 +302,18 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "@fortawesome/fontawesome-svg-core",
+            "version": "^1.2.2"
+          },
+          {
+            "name": "@fortawesome/free-solid-svg-icons",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "^0.1.2"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.277"
           },
@@ -318,14 +330,26 @@
             "version": "^2.0.11"
           },
           {
+            "name": "react-fontawesome",
+            "version": "^1.6.1"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "url-loader",
+            "version": "^1.0.1"
           }
         ],
         "devDependencies": [
           {
             "name": "prettier",
             "version": "^1.13.7"
+          },
+          {
+            "name": "url-loader",
+            "version": "^1.0.1"
           }
         ],
         "peerDependencies": [],
@@ -430,12 +454,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-12T00:33:38.549Z",
+      "buildTime": "2018-08-14T08:49:24.013Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5b56be70570c51bc11af50c165486560",
+        "contentDigest": "30aebb9fe2df9fcfbefc232293fa65f0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -456,7 +480,49 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0c8615fad0a508a8f512e1667a3e748c",
+        "contentDigest": "be90751b04a44645162666f489c83473",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e2eb7b53739c1d42227d66fe8d2fd27",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "layout": "index",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "710df92c159ddce4aac2f4c5ddbab580",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -477,28 +543,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e1b0738cb2b7bc5f01a4643a987c3549",
+        "contentDigest": "36806374d6e75263ffff96669db28f69",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
+    "SitePage /portfolio/": {
       "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
+      "jsonName": "portfolio.json",
+      "internalComponentName": "ComponentPortfolio",
+      "path": "/portfolio/",
+      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/portfolio.js",
+      "componentChunkName": "component---src-pages-portfolio-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
+      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/portfolio.js",
+      "id": "SitePage /portfolio/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9a68b26d7ebdc9399eb508f2298d0cbd",
+        "contentDigest": "f6b3d576df7391282a52771d4394929f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -519,7 +585,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5d192954ec44a287e505508dbb3a88bc",
+        "contentDigest": "df0af9492c2366f4dc4d4c15d2165d70",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -527,7 +593,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "55f52324776dda447d2aa5ab40bf2e9e"
+    "PLUGINS_HASH": "da1bf130056a30c3fa07b11370c139c6"
   },
   "componentDataDependencies": {
     "nodes": {

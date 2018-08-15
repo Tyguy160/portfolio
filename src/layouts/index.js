@@ -1,8 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPencilAlt , faCoffee, faBook, faComment} from '@fortawesome/free-solid-svg-icons';
 
-import Header from '../components/header'
+library.add(faPencilAlt, faCoffee, faBook, faComment);
+
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -10,8 +13,8 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Tyler Maschino\'s personal website.'},
+        { name: 'keywords', content: 'engineer, inventor, entrepreneur, developer, programmer, tyler, stephen, maschino, tyler maschino' },
       ]}
     />
     <div>
