@@ -11,7 +11,7 @@ const Hero = () => (
     <h2>{window.innerWidth > 600 ? `Engineer. Inventor. Entrepreneur.` : ``}</h2>
   </div>
   <div className="nav">
-    <Link to="about" className="navButton">{"About Me".toUpperCase()}</Link>
+    <Link to="about" className="navButton">{"About".toUpperCase()}</Link>
     <div className="navButton">{"Contact".toUpperCase()}</div>
     <a href="/portfolio/"className="navButton">{"Portfolio".toUpperCase()}</a>
     <a href="/blog/"className="navButton">{"Blog".toUpperCase()}</a>
