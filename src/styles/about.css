@@ -43,6 +43,10 @@
   grid-template-columns: 1fr;
 }
 
+.interest-header > svg {
+  margin-bottom: 20px;
+}
+
 .interest > p {
   font-weight: 300;
   line-height: 1.8em;
@@ -57,7 +61,7 @@
 @media only screen and (min-width: 475px) {
   .wrapper {
     grid-template-columns: 1fr;
-    grid-template-areas: 'content';
+    grid-template-areas: "content";
     padding: 20px;
   }
 
@@ -73,14 +77,14 @@
 @media only screen and (min-width: 1200px) {
   .wrapper {
     grid-template-columns: minmax(25px, 0.1fr) 1fr minmax(25px, 0.1fr);
-    grid-template-areas: 'pad-left content pad-right';
+    grid-template-areas: "pad-left content pad-right";
     padding: 20px;
   }
 
   .container {
     grid-gap: 50px;
     grid-template-columns: repeat(auto-fill, 1fr);
-    grid-template-areas: 'image text';
+    grid-template-areas: "image text";
   }
 
   .portrait {

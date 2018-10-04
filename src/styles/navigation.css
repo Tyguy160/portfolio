@@ -19,9 +19,8 @@
   display: grid;
   grid-row: 4 / 5;
   grid-column: 2 / 3;
-  grid-gap: 25px;
+  /* grid-gap: 25px; */
   grid-template-columns: repeat(auto-fit, 150px);
-  align-content: start;
   justify-content: end;
 }
 
@@ -31,5 +30,6 @@
   color: white;
   text-decoration: none;
   /* padding: 15px; */
-  /* text-align: center; */
+  /* justify-self: center; */
+  /* align-self: center; */
 }

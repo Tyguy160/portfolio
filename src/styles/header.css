@@ -1,18 +1,30 @@
 .head {
   background: rgba(25, 25, 25, 0.8);
-  /* margin-bottom: 1.45rem; */
-}
-
-h1 {
-  /* margin: 0; */
-}
-
-.contents {
-  /* margin: 0 auto; */
-  /* padding: 1rem 2rem; */
+  margin-bottom: 1.45rem;
 }
 
 .home-link {
   color: white;
   text-decoration: none;
+}
+
+.contents {
+  display: grid;
+  grid-template-areas: "logo nav";
+  grid-template-columns: 0.4fr 0.6fr;
+  height: 60px;
+}
+.home {
+  grid-area: logo;
+  align-self: center;
+  margin: 0px;
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+
+.nav {
+  grid-area: nav;
+  font-size: 2em;
+  align-self: center;
+  margin: 0px;
 }

@@ -1,28 +1,27 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
+      "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/.cache/dev-404-page.js",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/.cache/dev-404-page.js",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ec63455db108b3d4be598b6c2162026c",
+        "contentDigest": "8422606fd7684952dc9791650abb2dde",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,34 +50,30 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b2b5075407c540ec36a17290fb63dad1",
+        "contentDigest": "3b633fd2c802d5d2f245dc060b9fbdd2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-layout-creator": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
-      "id": "Plugin component-layout-creator",
-      "name": "component-layout-creator",
+    "Plugin load-babel-config": {
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "createLayouts"
+        "onPreBootstrap"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
-        "name": "component-layout-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
         "version": "1.0.0",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [],
@@ -90,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9595c4cde7bb0d9da058ee8d2cde5551",
+        "contentDigest": "acf9f02ab3da0eb8f8707827b1854d04",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -109,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -126,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d5a23428558df47c4b228259ff683067",
+        "contentDigest": "97af9d34264a35b3462f9760d5f4b1af",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -144,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -161,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cbc86933a948d0bfb7db962a56c61fc8",
+        "contentDigest": "7c714d4f24943d02ea4da108e76ebb68",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -175,12 +170,11 @@
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage",
-        "onCreateLayout"
+        "onCreatePage"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -197,16 +191,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f71dd06510841b97e55c3ba5b864dd64",
+        "contentDigest": "0d6372d62915a4738763665c405f3c13",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "2.0.11",
+      "version": "3.0.0",
       "pluginOptions": {
         "plugins": []
       },
@@ -215,11 +209,11 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "2.0.11",
+        "version": "3.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -244,24 +238,28 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           }
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^1.0.0"
+            "version": ">2.0.0-alpha"
           },
           {
             "name": "react-helmet",
@@ -274,23 +272,195 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c86de095e14bd1b6d506242a4f582e0f",
+        "contentDigest": "cd67ba01a0b46d677ecb94375bf36bb0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "57353446408bbb17ea234fb5d72fefdf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onPrefetchPathname",
+        "onServiceWorkerActive"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.4.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9908c160f6d88adadfdf9d703bef4d31",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino",
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "daff260ef9457aabad07339b005cc0e6",
+      "version": "6ce84ea52c192dfa6ed83a90a23ae50d",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -303,31 +473,43 @@
         "dependencies": [
           {
             "name": "@fortawesome/fontawesome-svg-core",
-            "version": "^1.2.2"
+            "version": "^1.2.4"
           },
           {
             "name": "@fortawesome/free-solid-svg-icons",
-            "version": "^5.2.0"
+            "version": "^5.3.1"
           },
           {
             "name": "@fortawesome/react-fontawesome",
-            "version": "^0.1.2"
+            "version": "^0.1.3"
           },
           {
             "name": "gatsby",
-            "version": "^1.9.277"
+            "version": "^2.0.0"
           },
           {
             "name": "gatsby-cli",
             "version": "^1.1.58"
           },
           {
-            "name": "gatsby-link",
-            "version": "^1.6.46"
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.5"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^2.0.11"
+            "version": "^3.0.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
           },
           {
             "name": "react-fontawesome",
@@ -336,20 +518,44 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
-          },
-          {
-            "name": "url-loader",
-            "version": "^1.0.1"
           }
         ],
         "devDependencies": [
           {
-            "name": "prettier",
-            "version": "^1.13.7"
+            "name": "eslint",
+            "version": "^5.6.1"
           },
           {
-            "name": "url-loader",
-            "version": "^1.0.1"
+            "name": "eslint-config-airbnb",
+            "version": "^17.1.0"
+          },
+          {
+            "name": "eslint-config-standard",
+            "version": "^12.0.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "eslint-plugin-promise",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.11.1"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "^4.0.0"
           }
         ],
         "peerDependencies": [],
@@ -359,19 +565,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e5909b7486b8452109acbd13f0e590cc",
+        "contentDigest": "8f26ad1053e1a555acdced2d7690ff04",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "pluginOptions": {
         "plugins": [],
-        "path": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages",
+        "path": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -379,11 +585,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/Tyler/Documents/tylerstephenmaschino/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "1.0.1",
+        "version": "2.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -396,8 +602,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
             "name": "bluebird",
@@ -408,12 +614,16 @@
             "version": "^1.7.0"
           },
           {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
             "name": "glob",
             "version": "^7.1.1"
           },
           {
             "name": "lodash",
-            "version": "^4.17.4"
+            "version": "^4.17.10"
           },
           {
             "name": "parse-filepath",
@@ -426,22 +636,31 @@
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
             "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b272b96dffe33333ab4c2628f47a6afa",
+        "contentDigest": "2806133778f72bc9162cc8dff648a6e9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -454,138 +673,152 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-15T12:33:29.854Z",
+      "buildTime": "2018-10-04T09:35:45.505Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "25d9431d3ab7cd3ef9f7cde5693cad63",
+        "contentDigest": "3acc1119a848847eea13555fbc81933e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
+      "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/404.js",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/404.js",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e19e9fa8e28b6bc1998d69dfd1dd3bd8",
+        "contentDigest": "f68bb04d8f48c893709ca29140eba2a0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
+      "jsonName": "about-f34",
       "internalComponentName": "ComponentAbout",
       "path": "/about/",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/about.js",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/about.js",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/about.js",
       "id": "SitePage /about/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fc77bec18081c128939d83f8a4e56bb2",
+        "contentDigest": "b10a4703276119487a692543c2d69bce",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /blog/": {
-      "layout": "index",
-      "jsonName": "blog.json",
+      "jsonName": "blog-f7a",
       "internalComponentName": "ComponentBlog",
       "path": "/blog/",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/blog.js",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/blog.js",
       "componentChunkName": "component---src-pages-blog-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/blog.js",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/blog.js",
       "id": "SitePage /blog/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "36d123455b0428efddd4a134838a3340",
+        "contentDigest": "ed781e7c4960e32f09afe4dc13df67b3",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "31b9d6d0b4a75da0f03f0d0087df5ad2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
+      "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/index.js",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/index.js",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3026079d2dbfa0a8e26a59f2ea31a1b5",
+        "contentDigest": "4c2189749f0324d8b7f726a631c0ace9",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /portfolio/": {
-      "layout": "index",
-      "jsonName": "portfolio.json",
+      "jsonName": "portfolio-964",
       "internalComponentName": "ComponentPortfolio",
       "path": "/portfolio/",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/portfolio.js",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/portfolio.js",
       "componentChunkName": "component---src-pages-portfolio-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/portfolio.js",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/portfolio.js",
       "id": "SitePage /portfolio/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "12d0d118865c5ab1f9a52a168d54f210",
+        "contentDigest": "b0c69dd66a42728a946be487581da677",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
+      "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/404.js",
+      "component": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "C:/Users/Tyler/Documents/tylerstephenmaschino/src/pages/404.js",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e156c6c3b67d24c30dc657965622a6ef",
+        "contentDigest": "7f318b725c9b6b17bda0ae9bd30765cf",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -593,18 +826,65 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "da1bf130056a30c3fa07b11370c139c6"
+    "PLUGINS_HASH": "868b42b7bf0da137156f7c4c673935f7"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "LAYOUT___index"
+        "sq--src-components-layout-js"
       ]
     },
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-f7a": "32/path---blog-f-7-a-05d-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/TylerMaschino/tyler-stephen-maschino/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/.cache/dev-404-page.js"
+    },
+    "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/404.js"
+    },
+    "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/about.js"
+    },
+    "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/blog.js": {
+      "query": "",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/blog.js"
+    },
+    "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/contact.js"
+    },
+    "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/index.js"
+    },
+    "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/portfolio.js": {
+      "query": "",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/portfolio.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
     }
   }
 }

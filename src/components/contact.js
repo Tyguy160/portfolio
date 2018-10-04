@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import '../styles/contact.css'
 
@@ -9,7 +8,7 @@ const Contact = () => {
     twitter: 'https://www.twitter.com/Tyguy160',
     github: 'https://www.github.com/Tyguy160',
     linkedin: 'https://www.linkedin.com/in/tylermaschino',
-    email: 'mailto:tylermaschino@gmail.com',
+    email: 'mailto:tylermaschino@gmail.com'
   }
   return (
     <div className="contact">
