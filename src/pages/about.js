@@ -1,16 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Header from '../components/header'
+import Layout from '../components/layout'
 import About from '../components/about'
-import '../layouts/about.css'
+import '../styles/about.css'
 
 const AboutPage = () => (
-  <div>
+  <Layout>
     {/* <Header /> */}
-    <About/>
-    {/* <div className="footer">&#9400; 2018 Tyler Stephen Maschino</div> */}
-  </div>
+    <About />
+  </Layout>
 )
 
 export default AboutPage

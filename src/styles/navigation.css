@@ -1,0 +1,35 @@
+.nav-hero {
+  display: grid;
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, 150px);
+  align-content: start;
+  justify-content: center;
+}
+.nav-hero > .navButton {
+  background-color: #2185f5;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.nav-bar {
+  display: grid;
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, 150px);
+  align-content: start;
+  justify-content: end;
+}
+
+.nav-bar > .navButton {
+  /* background-color: #2185f5; */
+  font-size: 0.5em;
+  color: white;
+  text-decoration: none;
+  /* padding: 15px; */
+  /* text-align: center; */
+}

@@ -1,22 +1,18 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import Navigation from '../components/navigation'
+import '../styles/hero.css'
 
 const Hero = () => (
-
-<div className="hero">
-  <div className="logo">
+  <div className="hero">
+    <div className="logo" />
+    <div className="heading">
+      <h1>Tyler Stephen Maschino</h1>
+      <h2>
+        {window.innerWidth > 600 ? `Engineer. Inventor. Entrepreneur.` : ``}
+      </h2>
+    </div>
+    <Navigation type={'nav-hero'} />
   </div>
-  <div className="heading">
-    <h1>Tyler Stephen Maschino</h1>
-    <h2>{window.innerWidth > 600 ? `Engineer. Inventor. Entrepreneur.` : ``}</h2>
-  </div>
-  <div className="nav">
-    <Link to="about" className="navButton">{"About".toUpperCase()}</Link>
-    <div className="navButton">{"Contact".toUpperCase()}</div>
-    <a href="/portfolio/"className="navButton">{"Portfolio".toUpperCase()}</a>
-    <a href="/blog/"className="navButton">{"Blog".toUpperCase()}</a>
-  </div>
-</div>
 )
 
-export default Hero;
+export default Hero

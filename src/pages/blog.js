@@ -1,16 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-// import Header from '../components/header'
-// import About from '../components/about'
-import '../layouts/index.css'
-
+import Layout from '../components/layout'
 const BlogPage = () => (
-  <div>
+  <Layout>
     {/* <Header/> */}
     {/* <About/> */}
-    <div className="footer">&#9400; 2018 Tyler Stephen Maschino</div>
-  </div>
+  </Layout>
 )
 
 export default BlogPage

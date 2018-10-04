@@ -1,0 +1,115 @@
+/* @autoprefixer: off */
+.wrapper {
+  display: grid;
+  height: 95vh;
+}
+
+.container {
+  display: grid;
+  grid-area: content;
+}
+
+.portrait {
+  justify-self: center;
+  display: grid;
+}
+
+.portrait > img {
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.about {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+}
+
+.about-me > h2 {
+  font-size: 32px;
+}
+
+.interests {
+  display: grid;
+}
+
+.interest {
+  display: grid;
+}
+
+.interest-header {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.interest > p {
+  font-weight: 300;
+  line-height: 1.8em;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.interest-icon {
+  color: #2185f5;
+}
+
+@media only screen and (min-width: 475px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'content';
+    padding: 20px;
+  }
+
+  .interest-header {
+    justify-self: center;
+  }
+
+  .interest-icon {
+    justify-self: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    grid-template-columns: minmax(25px, 0.1fr) 1fr minmax(25px, 0.1fr);
+    grid-template-areas: 'pad-left content pad-right';
+    padding: 20px;
+  }
+
+  .container {
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-areas: 'image text';
+  }
+
+  .portrait {
+    grid-area: image;
+  }
+
+  .about {
+    grid-gap: 20px;
+    grid-area: text;
+  }
+
+  .interests {
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .interest-header {
+    justify-self: start;
+  }
+
+  .interest-icon {
+    justify-self: start;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .wrapper {
+    grid-template-columns:
+      minmax(25px, 0.25fr) 1fr
+      minmax(25px, 0.25fr);
+  }
+}

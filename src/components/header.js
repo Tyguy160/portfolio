@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../layouts/header.css'
+import '../styles/header.css'
+import Navigation from './navigation'
 
 const Header = ({ siteTitle }) => (
   <div className="head">
@@ -9,6 +10,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/" className="home-link">
           Tyler Stephen Maschino
         </Link>
+        <Navigation type={'nav-bar'} />
       </h1>
     </div>
   </div>
