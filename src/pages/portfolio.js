@@ -3,8 +3,7 @@ import Layout from '../components/layout'
 
 const PortfolioPage = () => (
   <Layout>
-    {/* <Header/> */}
-    {/* <About/> */}
+    <h2>My Endeavors</h2>
   </Layout>
 )
 

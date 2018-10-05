@@ -1,7 +1,7 @@
 /* @autoprefixer: off */
 .wrapper {
   display: grid;
-  height: 95vh;
+  /* max-height: 400px; */
 }
 
 .container {
@@ -27,7 +27,7 @@
 }
 
 .about-me > h2 {
-  font-size: 32px;
+  font-size: 1em;
 }
 
 .interests {
@@ -44,14 +44,14 @@
 }
 
 .interest-header > svg {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .interest > p {
   font-weight: 300;
   line-height: 1.8em;
   text-align: justify;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .interest-icon {
@@ -76,6 +76,8 @@
 
   .interest-icon {
     justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
   }
 
   h2 {
@@ -83,10 +85,15 @@
   }
 }
 
-@media only screen and (min-width: 475px) {
+@media only screen and (min-width: 476px) and (max-width: 1200px) {
+  .portrait > img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .wrapper {
-    grid-template-columns: 1fr;
-    grid-template-areas: "content";
+    grid-template-columns: 0.2fr 0.6fr 0.2fr;
+    grid-template-areas: "pad-left content pad-right";
     padding: 20px;
   }
 
@@ -96,6 +103,8 @@
 
   .interest-icon {
     justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
   }
 
   h2 {
@@ -103,11 +112,12 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1201px) {
   .wrapper {
     grid-template-columns: minmax(25px, 0.1fr) 1fr minmax(25px, 0.1fr);
     grid-template-areas: "pad-left content pad-right";
     padding: 20px;
+    max-height: 80vh;
   }
 
   .container {
@@ -121,33 +131,21 @@
   }
 
   .about {
-    grid-gap: 20px;
     grid-area: text;
   }
 
   .interests {
-    grid-gap: 50px;
+    grid-column-gap: 50px;
     grid-template-columns: 1fr 1fr;
   }
 
-  .interest-header {
-    justify-self: start;
+  .interest-header > * {
+    /* justify-self: start; */
+    margin-bottom: 10px;
   }
 
   .interest-icon {
-    justify-self: start;
-  }
-
-  h2 {
-    text-align: start;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .wrapper {
-    grid-template-columns:
-      minmax(25px, 0.25fr) 1fr
-      minmax(25px, 0.25fr);
+    /* justify-self: start; */
   }
 
   h2 {
