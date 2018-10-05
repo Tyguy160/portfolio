@@ -58,6 +58,31 @@
   color: #2185f5;
 }
 
+@media only screen and (max-width: 475px) {
+  .portrait > img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas: "content";
+    padding: 20px;
+  }
+
+  .interest-header {
+    justify-self: center;
+  }
+
+  .interest-icon {
+    justify-self: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
 @media only screen and (min-width: 475px) {
   .wrapper {
     grid-template-columns: 1fr;
@@ -71,6 +96,10 @@
 
   .interest-icon {
     justify-self: center;
+  }
+
+  h2 {
+    text-align: center;
   }
 }
 
@@ -108,6 +137,10 @@
   .interest-icon {
     justify-self: start;
   }
+
+  h2 {
+    text-align: start;
+  }
 }
 
 @media only screen and (min-width: 1500px) {
@@ -115,5 +148,9 @@
     grid-template-columns:
       minmax(25px, 0.25fr) 1fr
       minmax(25px, 0.25fr);
+  }
+
+  h2 {
+    text-align: start;
   }
 }

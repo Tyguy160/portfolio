@@ -19,17 +19,27 @@
   display: grid;
   grid-row: 4 / 5;
   grid-column: 2 / 3;
-  /* grid-gap: 25px; */
-  grid-template-columns: repeat(auto-fit, 150px);
+  grid-gap: 25px;
+  grid-template-columns: repeat(4, auto);
   justify-content: end;
 }
 
 .nav-bar > .navButton {
-  /* background-color: #2185f5; */
   font-size: 0.5em;
   color: white;
   text-decoration: none;
-  /* padding: 15px; */
-  /* justify-self: center; */
-  /* align-self: center; */
+}
+
+.nav-bar > .navButton:hover {
+  color: #ccc;
+}
+
+.nav-hero > .navButton:hover {
+  background-color: #1b67be;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-bar {
+    justify-content: center;
+  }
 }

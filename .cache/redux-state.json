@@ -476,6 +476,10 @@
             "version": "^1.2.4"
           },
           {
+            "name": "@fortawesome/free-brands-svg-icons",
+            "version": "^5.3.1"
+          },
+          {
             "name": "@fortawesome/free-solid-svg-icons",
             "version": "^5.3.1"
           },
@@ -673,12 +677,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-04T09:35:45.505Z",
+      "buildTime": "2018-10-04T23:40:20.795Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3acc1119a848847eea13555fbc81933e",
+        "contentDigest": "ab2b6d5dbec03849f6b857bb9015f8a9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -826,7 +830,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "868b42b7bf0da137156f7c4c673935f7"
+    "PLUGINS_HASH": "eeb74e43da8937c3e6cc520eb81c76c5"
   },
   "componentDataDependencies": {
     "nodes": {

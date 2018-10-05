@@ -6,7 +6,6 @@ import '../styles/about.css'
 
 const AboutPage = () => (
   <Layout>
-    {/* <Header /> */}
     <About />
   </Layout>
 )
