@@ -275,13 +275,13 @@
       "version": "2.0.2",
       "pluginOptions": {
         "plugins": [],
-        "name": "gatsby-starter-default",
-        "short_name": "starter",
+        "name": "Tyler Stephen Maschino",
+        "short_name": "TSM",
         "start_url": "/",
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/images/tsm_logo.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -350,7 +350,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "57353446408bbb17ea234fb5d72fefdf",
+        "contentDigest": "07f1426fa5aec01c520e0f58a0a2e814",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -444,7 +444,7 @@
       "resolve": "/Users/TylerMaschino/tyler-stephen-maschino",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "6ce84ea52c192dfa6ed83a90a23ae50d",
+      "version": "ff6c317b60e07ad9f6938dcd2684abed",
       "pluginOptions": {
         "plugins": []
       },
@@ -560,7 +560,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8f26ad1053e1a555acdced2d7690ff04",
+        "contentDigest": "96b3d0ed684cc71a6124940e0e351acd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -666,12 +666,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-05T21:00:51.568Z",
+      "buildTime": "2018-10-06T11:44:06.654Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4a57b3d8396ad3a2263163b618499024",
+        "contentDigest": "9b24ba9d57b0c84215690554025d1322",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -839,7 +839,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "eeb74e43da8937c3e6cc520eb81c76c5"
+    "PLUGINS_HASH": "3ecfddbedc9ed4dcbd151957905da6b0"
   },
   "componentDataDependencies": {
     "nodes": {
