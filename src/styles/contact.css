@@ -5,6 +5,7 @@
 .contact > h2 {
   color: #2185f5;
   align-self: end;
+  margin-bottom: 50px;
   justify-self: center;
 }
 .contact-info {
@@ -16,6 +17,7 @@
   grid-gap: 20px;
   grid-template-columns: repeat(5, 50px);
   margin: 0px;
+  padding-left: 0px;
 }
 .contact-info > ul > li {
   list-style-type: none;

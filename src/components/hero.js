@@ -1,6 +1,6 @@
-import React from 'react'
-import Navigation from './navigation'
-import '../styles/hero.css'
+import React from "react";
+import Navigation from "./navigation";
+import "../styles/hero.css";
 
 const Hero = () => {
   // let window
@@ -10,16 +10,16 @@ const Hero = () => {
       <div className="heading">
         <h1>Tyler Stephen Maschino</h1>
         <h2>
-          {/* {window
+          {window
             ? window.innerWidth > 600
-              ? 'Engineer. Inventor. Entrepreneur.'
-              : ''
-            : ''} */}
+              ? "Engineer. Inventor. Entrepreneur."
+              : ""
+            : ""}
         </h2>
       </div>
       <Navigation type="nav-hero" />
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

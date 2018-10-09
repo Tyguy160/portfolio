@@ -17,6 +17,7 @@
 .home {
   grid-area: logo;
   align-self: center;
+  justify-self: start;
   margin: 0px;
   padding-left: 20px;
   font-size: 1.5em;

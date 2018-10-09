@@ -187,6 +187,90 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-netlify": {
+      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-netlify",
+      "id": "Plugin gatsby-plugin-netlify",
+      "name": "gatsby-plugin-netlify",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "kebab-hash",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^3.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1e910ad55fc21894237b95b3ecc031f9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-react-helmet": {
       "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
@@ -272,7 +356,7 @@
       "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-manifest",
       "id": "Plugin gatsby-plugin-manifest",
       "name": "gatsby-plugin-manifest",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "pluginOptions": {
         "plugins": [],
         "name": "Tyler Stephen Maschino",
@@ -294,7 +378,7 @@
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.2",
+        "version": "2.0.4",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -350,92 +434,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "07f1426fa5aec01c520e0f58a0a2e814",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-offline": {
-      "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline",
-      "id": "Plugin gatsby-plugin-offline",
-      "name": "gatsby-plugin-offline",
-      "version": "2.0.5",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "createPages",
-        "onPostBuild"
-      ],
-      "browserAPIs": [
-        "registerServiceWorker",
-        "onPrefetchPathname",
-        "onServiceWorkerActive"
-      ],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline",
-      "packageJson": {
-        "name": "gatsby-plugin-offline",
-        "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.5",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "offline",
-          "precache",
-          "service-worker"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cheerio",
-            "version": "^1.0.0-rc.2"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "workbox-build",
-            "version": "^3.4.1"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-beta"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "9908c160f6d88adadfdf9d703bef4d31",
+        "contentDigest": "48d62f7d6ffb2a72f9074131670841cd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -444,7 +443,7 @@
       "resolve": "/Users/TylerMaschino/tyler-stephen-maschino",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "ff6c317b60e07ad9f6938dcd2684abed",
+      "version": "893bff1811d35c61d571a45f6200b5f8",
       "pluginOptions": {
         "plugins": []
       },
@@ -491,8 +490,8 @@
             "version": "^2.0.2"
           },
           {
-            "name": "gatsby-plugin-offline",
-            "version": "^2.0.5"
+            "name": "gatsby-plugin-netlify",
+            "version": "^2.0.1"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -560,7 +559,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "96b3d0ed684cc71a6124940e0e351acd",
+        "contentDigest": "0477e5a1485954c5ae7d327ea4a985a3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -569,7 +568,7 @@
       "resolve": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages",
@@ -584,7 +583,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -655,7 +654,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2806133778f72bc9162cc8dff648a6e9",
+        "contentDigest": "e4cfcacf7c70886cd1cc16b7a6703e8b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -666,33 +665,13 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-06T11:44:06.654Z",
+      "buildTime": "2018-10-06T16:44:44.645Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9b24ba9d57b0c84215690554025d1322",
+        "contentDigest": "8d70aa946fd53527d4d497fa5a8b21da",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ce59ecec88592c3d65b2e67c2be5d407",
-        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -839,7 +818,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3ecfddbedc9ed4dcbd151957905da6b0"
+    "PLUGINS_HASH": "3a477d814b58281c09a34bc84f90c8b6"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -850,16 +829,16 @@
     "connections": {}
   },
   "jsonDataPaths": {
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 755544856,
-    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "blog-f7a": "32/path---blog-f-7-a-05d-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/404.js": {
@@ -885,10 +864,6 @@
     "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/portfolio.js": {
       "query": "",
       "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/src/pages/portfolio.js"
-    },
-    "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/TylerMaschino/tyler-stephen-maschino/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
