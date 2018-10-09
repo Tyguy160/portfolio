@@ -3,18 +3,18 @@ import "../styles/navigation.css";
 
 const Navigation = props => (
   <div className={props.type}>
-    <a href="/about" className="navButton">
+    <Link to="/about" className="navButton">
       {"About".toUpperCase()}
-    </a>
-    <a href="/contact" className="navButton">
+    </Link>
+    <Link to="/contact" className="navButton">
       {"Contact".toUpperCase()}
-    </a>
-    <a href="/portfolio" className="navButton">
+    </Link>
+    <Link to="/portfolio" className="navButton">
       {"Portfolio".toUpperCase()}
-    </a>
-    <a href="/blog" className="navButton">
+    </Link>
+    <Link to="/blog" className="navButton">
       {"Blog".toUpperCase()}
-    </a>
+    </Link>
   </div>
 );
 
