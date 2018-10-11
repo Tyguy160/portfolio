@@ -1,0 +1,20 @@
+.thumbnail > * {
+  max-width: 300px;
+}
+
+.thumbnail-container {
+  width: 300px;
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px 0px #898989;
+}
+
+.thumbnail-container > .description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-link {
+  color: black;
+  text-decoration: none;
+}
