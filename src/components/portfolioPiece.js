@@ -7,7 +7,12 @@ const PortfolioPiece = props => {
       <div className="thumbnail-container">
         <a href={props.url} alt={props.title}>
           <div className="thumbnail">
-            <img src={props.imgSrc} title={props.title} frameBorder="0" />
+            <img
+              src={props.imgSrc}
+              title={props.title}
+              alt={props.title}
+              frameBorder="0"
+            />
           </div>
         </a>
       </div>
