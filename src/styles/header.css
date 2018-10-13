@@ -21,6 +21,8 @@
   margin: 0px;
   padding-left: 20px;
   font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
 .home-link:hover {
@@ -34,6 +36,8 @@
   align-items: end;
   padding-right: 20px;
   margin: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 800px) {
