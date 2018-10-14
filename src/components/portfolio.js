@@ -16,28 +16,35 @@ const PortfolioPage = () => {
   let brewTimeURL = "https://triplebarcoffee.com/brew-time";
   let shiftListURL = "https://shiftlist.netlify.com";
 
+  let smoothistaDescription =
+    "A web app that helps you find smoothie recipes based on the ingredients you have on hand.";
+  let brewTimeDescription =
+    "A web app that provides step-by-step instructions for brewing AeroPress coffee perfectly.";
+  let shiftListDescription =
+    "A to-do list web app that allows you to shift incomplete tasks off to the next day.";
+
   return (
     <div className="portfolio-page">
       <Header />
       <h2>My Endeavors</h2>
       <div className="portfolio">
         <PortfolioPiece
-          className="portfolio-piece"
           title={"Smoothista"}
           imgSrc={smoothistaImage}
           url={smoothistaURL}
+          description={smoothistaDescription}
         />
         <PortfolioPiece
-          className="portfolio-piece"
           title={"Shift List"}
           imgSrc={shiftListImage}
           url={shiftListURL}
+          description={shiftListDescription}
         />
         <PortfolioPiece
-          className="portfolio-piece"
           title={"Brew Time"}
           imgSrc={brewTimeImage}
           url={brewTimeURL}
+          description={brewTimeDescription}
         />
       </div>
     </div>
